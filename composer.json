@@ -1,0 +1,19 @@
+{
+    "name": "vikas/youtube-api",
+    "description": "youtub",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "phpmailer/phpmailer": "^6.3"
+    },
+    "autoload": {
+
+        "psr-4": {
+
+            "youTubeSearch\\": "src"
+
+        }
+
+    }
+
+}
